@@ -17,11 +17,11 @@ public class Location {
 	public void setMaxkapazität(int maxkapazität) {
 		this.maxkapazität = maxkapazität;
 	}
-	public String getBlbl() {
-		return blbl;
+	public String getBlbla() {
+		return blbla;
 	}
-	public void setBlbl(String blbl) {
-		this.blbl = blbl;
+	public void setBlbla(String blbla) {
+		this.blbla = blbla;
 	}
 	
 	
