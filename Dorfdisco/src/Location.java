@@ -3,6 +3,7 @@ public class Location {
 
 	private String name;
 	private int maxkapazität;
+	private String blbla;
 	private String blbl;
 	private String blbl4;
 	
@@ -19,7 +20,6 @@ public class Location {
 		this.blbla = blbla;
 	}
 
-
 	
 	public String getName() {
 		return name;
@@ -27,5 +27,6 @@ public class Location {
 	public void setName(String name) {
 		this.name = name;
 	}
-
+	
+	
 }
