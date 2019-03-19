@@ -2,18 +2,16 @@
 public class Location {
 
 	private String name;
-	private int maxkapazit‰t;
+	private int maxkapazit√§t;
 	private String blbla;
 	private String blbl;
 	private String blbl5;
 
-
-	
-	public int getMaxkapazit‰t() {
-		return maxkapazit‰t;
+	public int getMaxkapazit√§t() {
+		return maxkapazit√§t;
 	}
-	public void setMaxkapazit‰t(int maxkapazit‰t) {
-		this.maxkapazit‰t = maxkapazit‰t;
+	public void setMaxkapazit√§t(int maxkapazit√§t) {
+		this.maxkapazit√§t = maxkapazit√§t;
 	}
 	public String getBlbla() {
 		return blbla;
