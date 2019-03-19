@@ -3,12 +3,11 @@ public class Location {
 
 	private String name;
 	private int maxkapazität;
-<<<<<<< Upstream, based on origin/master
+	private String blbla;
 	private String blbl;
 	private String blbl5;
-=======
-	private String blbla;
->>>>>>> 34f454a dad
+
+
 	
 	public int getMaxkapazität() {
 		return maxkapazität;
@@ -23,7 +22,6 @@ public class Location {
 		this.blbla = blbla;
 	}
 
-
 	
 	public String getName() {
 		return name;
@@ -31,5 +29,6 @@ public class Location {
 	public void setName(String name) {
 		this.name = name;
 	}
-
+	
+	
 }
