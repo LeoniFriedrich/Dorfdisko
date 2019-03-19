@@ -2,7 +2,7 @@
 public class Gast extends Person{
 
 	private String name;
-	private int alter = 9000;
+	private int alter = 9045;
 
 	public String getName() {
 		return name;
