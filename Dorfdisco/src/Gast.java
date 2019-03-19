@@ -1,6 +1,9 @@
 
 public class Gast extends Person{
 
+
+	int aldaaaa = 0;
+
 	private String name;
 	private int alter = 9000;
 
@@ -11,5 +14,6 @@ public class Gast extends Person{
 	public void setName(String name) {
 		this.name = name;
 	}
+
 	
 }
