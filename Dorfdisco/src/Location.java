@@ -3,8 +3,12 @@ public class Location {
 
 	private String name;
 	private int maxkapazität;
+<<<<<<< Upstream, based on origin/master
 	private String blbl;
 	private String blbl5;
+=======
+	private String blbla;
+>>>>>>> 34f454a dad
 	
 	public int getMaxkapazität() {
 		return maxkapazität;
