@@ -4,7 +4,7 @@ public class Location {
 	private String name;
 	private int maxkapazität;
 	private String blbl;
-	private String blbl4;
+	private String blbl5;
 	
 	public int getMaxkapazität() {
 		return maxkapazität;
