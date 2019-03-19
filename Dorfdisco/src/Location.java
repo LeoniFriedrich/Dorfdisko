@@ -20,7 +20,6 @@ public class Location {
 		this.blbla = blbla;
 	}
 
-	
 	public String getName() {
 		return name;
 	}
