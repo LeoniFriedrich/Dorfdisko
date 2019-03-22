@@ -22,6 +22,18 @@ public class Gast extends Person{
 	  this.budget = budget;
   }
   
+  public void inClubGehen(Location l) {
+	  if(this.getBudget() >= l.getEintritt()) {
+		  l.eintritt();
+		  int b = this.getBudget() - l.getEintritt();
+		  this.setBudget(b);
+		  System.out.println(this.getVorname() +" ist jetzt im Club!");
+	  }
+	  else {
+		  System.err.println(this.getVorname() +" hat nicht genug geld!");
+	  }
+  }
+  
   
   
 }
