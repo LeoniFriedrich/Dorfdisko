@@ -2,26 +2,34 @@
 public class Location {
 
 	private String name;
-	private int maxkapazitÃ¤t;
-	private String blbla;
-	private String blbl;
-	private String blbl5;
+	private int restkapazitaet;
 	private int eintritt;
+	private int kasse;
 
-	public int getMaxkapazitÃ¤t() {
-		return maxkapazitÃ¤t;
+	public Location(String n, int e, int max) {
+		this.setEintritt(e);
+		this.setRestkapazitaet(max);
+		this.setName(n);
 	}
-	public void setMaxkapazitÃ¤t(int maxkapazitÃ¤t) {
-		this.maxkapazitÃ¤t = maxkapazitÃ¤t;
-	}
-	public String getBlbla() {
-		return blbla;
-	}
-	public void setBlbla(String blbla) {
-		this.blbla = blbla;
-	}
-
 	
+	public int getKasse() {
+		return kasse;
+	}
+	public void setKasse(int kasse) {
+		this.kasse = kasse;
+	}
+	public int getEintritt() {
+		return eintritt;
+	}
+	public void setEintritt(int eintritt) {
+		this.eintritt = eintritt;
+	}
+	public int getRestkapazitaet() {
+		return restkapazitaet;
+	}
+	public void setRestkapazitaet(int restkapazitaet) {
+		this.restkapazitaet = restkapazitaet;
+	}
 	public String getName() {
 		return name;
 	}
@@ -29,5 +37,16 @@ public class Location {
 		this.name = name;
 	}
 	
+	public void eintritt() {
+		if (this.getRestkapazitaet() >= 0) {
+			int k = this.getKasse() + this.getEintritt();
+			this.setKasse(k);
+			int r = this.getRestkapazitaet() -1;
+			this.setRestkapazitaet(r);
+		}
+		else {
+			System.err.println("Location ist voll!");
+		}
+	}
 	
 }
