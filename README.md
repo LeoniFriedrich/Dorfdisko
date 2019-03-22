@@ -8,3 +8,5 @@ Ich lerne
 nicht
 
 Herbstgedicht
+
+mit dir bin ich gerne dicht
