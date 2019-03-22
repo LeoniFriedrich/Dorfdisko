@@ -48,5 +48,4 @@ public class Location {
 			System.err.println("Location ist voll!");
 		}
 	}
-	
 }
