@@ -4,9 +4,9 @@ public class Location {
 	private String name;
 	private int maxkapazitÃ¤t;
 	private String blbla;
-
 	private String blbl;
 	private String blbl5;
+	private int eintritt;
 
 	public int getMaxkapazitÃ¤t() {
 		return maxkapazitÃ¤t;
