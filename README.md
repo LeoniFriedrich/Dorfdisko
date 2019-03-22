@@ -1,5 +1,5 @@
 # Dorfdisco Sind wir nicht gewesen
-Porsche Boxter S
+https://lichess.org/olxnzv8n
 
 Gedicht:
 
@@ -9,4 +9,4 @@ nicht
 
 Herbstgedicht
 
-
+mit dir bin ich gerne dicht
