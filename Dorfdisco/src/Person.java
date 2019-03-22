@@ -5,6 +5,12 @@ public class Person {
 	private String nachname;
 	private int alter;
 	
+	public Person(String vn, String nn, int a) {
+		this.setVorname(vn);
+		this.setNachname(nn);
+		this.setAlter(a);
+	}
+	
 	
 	public String getVorname() {
 		return vorname;

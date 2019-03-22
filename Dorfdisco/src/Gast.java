@@ -3,6 +3,12 @@ public class Gast extends Person{
   
   private String Hotel;
   private int budget;
+
+  public Gast(String vn, String nn, int a) {
+		super(vn, nn, a);
+		this.setBudget(100);
+	}
+  
   public String getHotel() {
 	  return Hotel;
   }
