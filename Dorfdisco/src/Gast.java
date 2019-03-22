@@ -1,8 +1,10 @@
 
 public class Gast extends Person{
   
+	private String blbl;
   private String Hotel;
   private int budget;
+  private boolean passend;
 
   public Gast(String vn, String nn, int a) {
 		super(vn, nn, a);
@@ -33,7 +35,5 @@ public class Gast extends Person{
 		  System.err.println(this.getVorname() +" hat nicht genug geld!");
 	  }
   }
-  
-  
   
 }
