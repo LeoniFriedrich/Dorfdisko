@@ -30,7 +30,7 @@ public class Gast extends Person{
 		  int b = this.getBudget() - l.getEintritt();
 		  this.setBudget(b);
 		  System.out.println(this.getVorname() +" ist jetzt im der Location: " 
-		  +l.getName() +"!" + "Morgen ist Dacia Tag!" );
+		  +l.getName() +"!" + " Morgen ist Dacia Tag!" );
 	  }
 	  else {
 		  System.err.println(this.getVorname() +" hat nicht genug geld!");
