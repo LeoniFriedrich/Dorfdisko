@@ -3,9 +3,6 @@ public class Location {
 
 	private String name;
 	private int restkapazitaet;
-	private String blbla;
-	private String blbl;
-	private String blbl5;
 	private int eintritt;
 	private int kasse;
 
@@ -33,19 +30,12 @@ public class Location {
 	public void setRestkapazitaet(int restkapazitaet) {
 		this.restkapazitaet = restkapazitaet;
 	}
-	public String getBlbla() {
-		return blbla;
-	}
-	public void setBlbla(String blbla) {
-		this.blbla = blbla;
-	}
 	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
 		this.name = name;
 	}
-	
 	
 	public void eintritt() {
 		if (this.getRestkapazitaet() >= 0) {
