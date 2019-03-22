@@ -9,4 +9,4 @@ nicht
 
 Herbstgedicht
 
-mit dir bin ihc gerne dicht
+mit dir bin ich gerne dicht
